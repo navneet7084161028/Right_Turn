@@ -1,0 +1,166 @@
+
+
+.image12{
+	background-image: url('best.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	width: 100%;
+	background-position: center;
+
+}
+.wrapper{
+	overflow: hidden;
+	z-index: 99999;
+	position:relative;
+	width: 100%;
+}
+
+.centered{
+    margin-left: 30% !important;
+    margin-right:30% !important;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-top: 200px;
+    opacity: 0.6;
+}
+.paintedwall{
+	color: black;
+	background-color:rgba(255,255,255,0.51);;
+	width: 100%
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	font-family: serif;
+}
+.wall-txt{
+	color: #daa520;
+	background-color:#fdf4f2;
+	width: 100%
+	height: auto;
+	text-align: center;
+	padding: 15px;
+	font-size: 35px;
+	font-family: serif;
+}
+.trii{
+	background-image: url('Tri.jpg');
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.opac{
+	background-color: #00000073;
+	height: inherit;
+
+}
+.coll{
+	background-image: url('color.jpg');
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opac1{
+	background-color: #00000073;
+	height: inherit;
+}
+.full{
+	background-image: url('full.jpg');
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opac2{
+	background-color: #00000073;
+	height: inherit;
+}
+.wall2{
+	background-image: url('wall2.jpg');
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opac3{
+	background-color: #00000073;
+	height: inherit;
+}
+.dry{
+	background-image: url('dry.jpg');
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opac4{
+	background-color: #00000073;
+	height: inherit;
+}
+.stain{
+	background-image: url('Stain.jpg');
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opac5{
+	background-color: #00000073;
+	height: inherit;
+}
+.parallax{
+	background-image: url('cat.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	font-family: Cambria;
+}
+
+.button {
+  border-radius: 4px;
+  background-color:transparent;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
